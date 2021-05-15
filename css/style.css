@@ -1,5 +1,5 @@
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 /* VARIABLES CSS */
 :root {
@@ -24,8 +24,15 @@
   --smaller-font-size: .75rem;
 
   /* FONT WEIGHT */
-  --font-medium: ;
-  --font-semi-bold ;
+  --font-medium: 500;
+  --font-semi-bold 600;
 
+  /* MARGINS */
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
 
 }
