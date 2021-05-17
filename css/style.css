@@ -133,4 +133,13 @@ img{
 }
 
 /* NAV */
+.nav{
+  max-width: 1024px;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 
