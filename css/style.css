@@ -188,6 +188,10 @@ img{
   top: var(--header-height);
 }
 
+/* ACTIVE MENU */
+.active-link{
+  color: var(--first-color);
+}
 
 
 
