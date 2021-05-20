@@ -183,22 +183,22 @@ img{
   cursor: pointer;
 }
 
-/* SHOW MENU */
+/* Show Menu */
 .show-menu{
   top: var(--header-height);
 }
 
-/* ACTIVE MENU */
+/* Active Menu */
 .active-link{
   color: var(--first-color);
 }
 
-/* CHANGE BACKGROUND HEADER */
+/* Change Background Header */
 .scroll-header{
   box-shadow: 0 2px 4px rgba(0,0,0,.1);
 }
 
-/* SCROLL TOP */
+/* Scroll Top */
 .scrolltop{
   position: fixed;
   right: 1rem;
@@ -212,6 +212,15 @@ img{
   z-index: var(--z-tooltip);
   transition: .4s;
   /* visibility: hidden; */
+}
+
+.scrolltop:hover{
+  background-color: var(--first-color-alt);
+}
+
+.scrolltop__icon{
+  font-size: 1.8rem;
+  color: var(--body-color);
 }
 
 
