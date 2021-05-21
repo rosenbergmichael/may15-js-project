@@ -246,3 +246,8 @@ img{
   color: var(--title-color);
   margin-bottom: var(--mb-4);
 }
+
+.home__img{
+  width: 300px;
+  justify-self: center;
+}
