@@ -275,3 +275,8 @@ img{
   margin-bottom: var(--mb-3);
 }
 
+.about__img{
+  width: 280px;
+  border-radius: .5rem;
+  justify-self: center;
+}
