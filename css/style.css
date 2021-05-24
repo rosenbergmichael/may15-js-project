@@ -287,3 +287,13 @@ img{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
+.services__content{
+  text-align: center;
+}
+
+.services__img{
+  width: 64px;
+  height: 64px;
+  fill: var(--first-color);
+  margin-bottom: var(--mb-2);
+}
