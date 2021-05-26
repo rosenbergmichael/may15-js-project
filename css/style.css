@@ -324,3 +324,16 @@ img{
   padding: .75rem;
 }
 
+.menu__img{
+  width: 100px;
+  align-self: center;
+  margin-bottom: var(--mb-2);
+}
+
+.menu__name, .menu__price{
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+
+
