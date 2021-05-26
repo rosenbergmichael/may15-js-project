@@ -335,5 +335,12 @@ img{
   color: var(--title-color);
 }
 
+.menu__name{
+  font-size: var(--normal-font-size);
+}
+
+.menu__detail, .menu__price{
+  font-size: var(--small-font-size);
+}
 
 
