@@ -355,3 +355,12 @@ img{
   padding: .625rem .813rem;
   border-radius: .5rem 0 .5rem 0;
 }
+
+/* APP */
+.app__data{
+  text-align: center;
+}
+
+.app__description{
+  margin-bottom: var(--mb-5);
+}
