@@ -343,4 +343,15 @@ img{
   font-size: var(--small-font-size);
 }
 
+.menu__detail{
+  margin-bottom: var(--mb-1);
+}
 
+.menu__button{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  padding: .625rem .813rem;
+  border-radius: .5rem 0 .5rem 0;
+}
