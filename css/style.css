@@ -373,3 +373,8 @@ img{
   width: 35px;
   margin: 0 var(--mb-1);
 }
+
+.app__img{
+  width: 60px;
+  justify-self: center;
+}
