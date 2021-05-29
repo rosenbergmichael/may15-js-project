@@ -387,3 +387,10 @@ img{
 .contact__description{
   margin-bottom: var(--mb-3);
 }
+
+/* FOOTER */
+.footer__container{
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 2rem;
+}
+
