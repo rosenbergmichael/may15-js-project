@@ -394,3 +394,9 @@ img{
   row-gap: 2rem;
 }
 
+.footer__logo{
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+}
+
