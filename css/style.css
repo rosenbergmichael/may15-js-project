@@ -406,3 +406,8 @@ img{
   margin: .25rem 0 var(--mb-3);
 }
 
+.footer__social{
+  font-size: 1.5rem;
+  color: var(--title-color);
+  margin-right: var(--mb-2);
+}
