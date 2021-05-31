@@ -423,3 +423,14 @@ img{
   color: var(--text-color);
   margin-bottom: var(--mb-1);
 }
+
+.footer__link:hover{
+  color: var(--first-color);
+}
+
+.footer__copy{
+  text-align: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+  margin-top: 3.5rem;
+}
