@@ -417,3 +417,9 @@ img{
   color: var(--title-color);
   margin-bottom: var(--mb-2);
 }
+
+.footer__link{
+  display: inline-block;
+  color: var(--text-color);
+  margin-bottom: var(--mb-1);
+}
