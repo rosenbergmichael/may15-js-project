@@ -400,3 +400,9 @@ img{
   font-weight: var(--font-semi-bold);
 }
 
+.footer__description{
+  display: block;
+  font-size: var(--small-font-size);
+  margin: .25rem 0 var(--mb-3);
+}
+
