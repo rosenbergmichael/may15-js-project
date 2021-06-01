@@ -443,4 +443,10 @@ img{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
+
+  .about__data, .about__initial,
+  .app__data, .app__initial,
+  .contact__container, .contact__initial{
+    text-align: initial;
+  }
 }
