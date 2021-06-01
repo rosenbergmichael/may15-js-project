@@ -449,4 +449,9 @@ img{
   .contact__container, .contact__initial{
     text-align: initial;
   }
+
+  .about__img, .app__img{
+    width: 380px;
+    order: -1;
+  }
 }
