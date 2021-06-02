@@ -507,6 +507,10 @@ img{
   .menu__img{
     width: 130px;
   }
-  
+
+  .app__store{
+    margin: 0 var(--mb-1) 0 0;
+  }
+
 
 }
