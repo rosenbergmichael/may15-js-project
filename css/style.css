@@ -511,6 +511,13 @@ img{
   .app__store{
     margin: 0 var(--mb-1) 0 0;
   }
+}
 
+@media screen and (min-width: 960px){
+  .bd-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  
 }
