@@ -487,4 +487,9 @@ img{
     display: none;
   }
 
+  .home__container{
+    height: 100vh;
+    justify-items: center;
+  }
+
 }
