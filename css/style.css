@@ -492,4 +492,9 @@ img{
     justify-items: center;
   }
 
+  .services__container,
+  .menu__container{
+    margin-top: var(--mb-6);
+  }
+
 }
