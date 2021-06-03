@@ -64,3 +64,6 @@ const themeButton = document.getElementById('theme-button')
 const darktheme = 'dark-theme'
 
 // Activate/deactivate theme manually with button
+themeButton.addEventListener('click', () => {
+  document.body.classList.toggle(darktheme)
+})
