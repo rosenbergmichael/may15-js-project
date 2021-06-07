@@ -72,9 +72,20 @@ const selectedIcon = localStorage.getItem('selected-icon')
 const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark':'light'
 const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'bx-moon':'bx-sun'
 
+// Validate if user previously chose a topic
+if(selectedTheme){
+  // if validation is fulfilled, ask what issue was to know if we activated or deactivated dark
+  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+  themeButton.classList[selectedIcon === 'bx-moon' ? 'add' : 'remove'](iconTheme)
+}
+
+
 // Activate/deactivate theme manually with button
 themeButton.addEventListener('click', () => {
   // Add or remove dark/icon theme
   document.body.classList.toggle(darkTheme)
   themeButton.classList.toggle(iconTheme)
+  // Save theme and current icon that user chose
+  localStorage.setItem('selected-theme', getCurrentTheme())
+  localStorage.setItem('selected-icon', getCurrentIcon())
 })
