@@ -62,8 +62,12 @@ window.addEventListener('scroll', scrollTop)
 // DARK LIGHT THEME
 const themeButton = document.getElementById('theme-button')
 const darktheme = 'dark-theme'
+const iconTheme = 'bx-sun'
+
 
 // Activate/deactivate theme manually with button
 themeButton.addEventListener('click', () => {
+  // Add or remove dark/icon theme
   document.body.classList.toggle(darktheme)
+  themeButton.classList.toggle(iconTheme)
 })
