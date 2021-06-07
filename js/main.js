@@ -61,13 +61,20 @@ window.addEventListener('scroll', scrollTop)
 
 // DARK LIGHT THEME
 const themeButton = document.getElementById('theme-button')
-const darktheme = 'dark-theme'
+const darkTheme = 'dark-theme'
 const iconTheme = 'bx-sun'
 
+// Previously selected topic (if selected)
+const selectedTheme = localStorage.getItem('selected-theme')
+const selectedIcon = localStorage.getItem('selected-icon')
+
+// Obtain current theme that interface has by validating dark-theme class
+const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark':'light'
+const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'bx-moon':'bx-sun'
 
 // Activate/deactivate theme manually with button
 themeButton.addEventListener('click', () => {
   // Add or remove dark/icon theme
-  document.body.classList.toggle(darktheme)
+  document.body.classList.toggle(darkTheme)
   themeButton.classList.toggle(iconTheme)
 })
